@@ -1,7 +1,12 @@
+import FooterFirstComponent from "./FooterFirstComponent/FooterFirstComponent"
+import HeaderFirstComponent from "./HeaderFirstComponent/HeaderFirstComponent"
+
 const FirstComponent = () => {
     return (
         <>
-            FirstComponent
+            <HeaderFirstComponent />
+            <main></main>
+            <FooterFirstComponent />
         </>
     )
 }

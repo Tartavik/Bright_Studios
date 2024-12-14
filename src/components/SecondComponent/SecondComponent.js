@@ -1,8 +1,14 @@
+import FooterSecondComponent from "./FooterSecondComponent/FooterSecondComponent"
+import HeaderSecondComponent from "./HeaderSecondComponent/HeaderSecondComponent"
+
 const SecondComponent = () => {
-    return (
+    return (           
         <>
-            SecondComponent
+            <HeaderSecondComponent />
+            <main></main>
+            <FooterSecondComponent />
         </>
+
     )
 }
 
